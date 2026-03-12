@@ -1,0 +1,20 @@
+{
+  "name": "ctrl-docs",
+  "scripts": {
+    "dev": "nuxt dev --extends docus",
+    "build": "nuxt build --extends docus"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "docus": "latest",
+    "nuxt": "^4.3.1",
+    "nuxt-studio": "1.4.0"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "better-sqlite3",
+    "esbuild",
+    "sharp",
+    "vue-demi"
+  ]
+}
