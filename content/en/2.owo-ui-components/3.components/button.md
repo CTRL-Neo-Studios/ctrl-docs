@@ -1,6 +1,6 @@
 ---
-title: 'Button'
-description: 'The Button Component.'
+title: Button
+description: The Button Component.
 category: owo-ui
 ---
 
@@ -9,15 +9,17 @@ The button component represents a clickable button. It can display text and resp
 ## Parameters
 
 ::field-group
-  ::field{name="text" type="string" required}
+  :::field{required name="text" type="string"}
   The text to display on the button.
-  ::
-  ::field{name="active" type="boolean"}
+  :::
+
+  :::field{name="active" type="boolean"}
   Whether the button is active or not.
-  ::
-  ::field{name="renderer"}
+  :::
+
+  :::field{name="renderer"}
   The button renderer to use for custom button styles.
-  ::
+  :::
 ::
 
 ## Examples
